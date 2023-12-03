@@ -2,9 +2,9 @@
 
 import { motion } from 'framer-motion';
 import styles from '../styles';
-import { TypingText, TitleText, NewFeatures, StartSteps } from '../components';
+import { TypingText, TitleText, NewFeatures } from '../components';
 import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
-import { newFeatures, startingFeatures } from '../constants';
+import { newFeatures } from '../constants';
 
 const WhatsNew = () => (
   <section className={`${styles.paddings} relative z-10`}>
